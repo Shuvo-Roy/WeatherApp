@@ -9,10 +9,55 @@
 </head>
 <body>
     <div class="main-body">
+
         <div class="searchbar">
             <i class="fa-solid fa-location-pin"></i>
-            <input type="text" name="" id="" placeholder="City name" spellcheck="false">
+            <input type="text" placeholder="City name" spellcheck="false">
+            <select id="unitSelect">
+                <option value="metric">°C</option>
+                <option value="imperial">°F</option>
+            </select>
             <button>Get Weather</button>
+        </div>
+
+        <div class="err">
+            <p>Invalid city name</p>
+        </div>
+        
+        <div class="weather-details">
+            <span class="icon"></span>
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Dhaka</h2>
+            <div class="details">
+                <div class="col">
+                    <i class="fa-solid fa-water"></i>
+                    <div>
+                        <p class="humidity">40%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <p class="wind">40 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="./assets/sunrise.png" alt="" class="sun">
+                    <div>                        
+                        <p class="sunrise"></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./assets/sunset.png" alt="" class="sun">
+                    <div>                        
+                        <p class="sunset"></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -20,3 +65,4 @@
     <script src="./script/script.js"></script>
 </body>
 </html>
+
