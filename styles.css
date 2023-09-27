@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #141E46;
+}
+.main-body{
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto 0;
+    background: linear-gradient(135deg, #00feba , #5b548a);
+    color: #fff;
+    border-radius:6px;
+    padding: 40px 40px;
+    text-align: center;
+}
+.searchbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar i{
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    display: flex;
+    color: #6499E9;
+    align-items: center;
+}
+.searchbar input{
+    border: 0;
+    outline: 0;
+    background: #fff;
+    padding: 10px 15px;
+    height: 50px;
+    flex: 1;
+    font-size: 20px;
+}
+.searchbar button{
+    border: 0;
+    outline: 0;
+    background: #6499E9;
+    padding: 8px;
+    height: 50px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
